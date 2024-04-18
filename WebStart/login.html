@@ -3,14 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>LOGIN</title>
+    <style>
+        h1{
+            color:cornflowerblue;
+            text-align: center;
+        }
+        .login_input{
+            font-size: 20px;
+        }
+        #btn_login{
+            font-size: 20px;
+            width: 100px;
+            height: 30px;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="color:cornflowerblue; text-align: center;">Login</h1>
+    <h1>Login</h1>
     <form>
-        ID: <input type="text" style="font-size: 20px;">
+        ID: <input class="login_input" type="text">
         <br>
-        PW: <input type="password" style="font-size: 20px;">
-        <input type="button" value="Login" style="font-size: 20px; width: 100px; height: 30px;">
+        PW: <input class="login_input" type="password">
+        <input id="btn_login" type="button" value="Login">
     </form>
 </body>
 </html>
