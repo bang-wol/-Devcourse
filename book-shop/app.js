@@ -5,14 +5,14 @@ dotenv.config()
 
 app.listen(process.env.PORT);
 
-const userRouter=require('./routes/users');
+// const userRouter=require('./routes/users');
 const bookRouter=require('./routes/books');
-const likeRouter=require('./routes/likes');
-const cartRouter=require('./routes/carts');
-const orederRouter=require('./routes/orders');
+// const likeRouter=require('./routes/likes');
+// const cartRouter=require('./routes/carts');
+// const orederRouter=require('./routes/orders');
 
-app.use('/users',userRouter);
+// app.use('/users',userRouter);
 app.use('/books',bookRouter);
-app.use('/likes',likeRouter);
-app.use('/cart',cartRouter);
-app.use('/order',orederRouter);
+// app.use('/likes',likeRouter);
+// app.use('/cart',cartRouter);
+// app.use('/order',orederRouter);
